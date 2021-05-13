@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="en">
+		<head>
+				<meta name="viewport" content="width=device-width, initial-scale=1.0">
+				<meta chatset="utf-8">
+				<meta name="author" content="Shariful Islam">
+				<title>🌜Eid Mubarak from Sharif</title>
+				<link rel="icon" href="eid.png">
+				<style>
+						body {
+						 margin: 0;
+						 text-align: center;
+						 font-family: Alegreya, sans-serif;
+						}
+						h2 {
+						padding: 15px 12px 0 12px;
+						font-weight: light;
+						color: #4d5b73;
+						margin: 0;
+						}
+						h3 {
+						color: #4c0d16;
+						}
+						button {
+						 font-weight: bold;
+						 margin: 0 auto;
+						 background-color: #3a5773;
+						 color: white;
+						 padding: 16px;
+						 border-radius: 10px;
+						 border: 0;
+						}
+						button:hover {
+						background-color: white;
+						color: white;
+						}
+						img {
+						width: 100%;
+						margin: auto;
+						}
+				</style>
+		</head>
+		
+		<body>
+				<h2>Have a Wish From Shariful Islam</h2>
+				<h3>Eid Mubarak</h3>
+				<img id="eid" src="loading.gif">
+				<script>
+						function call1() {
+						document.getElementById('eid').src='eid.gif';
+						}
+						function play() {
+						var audio = document.getElementById("audio"); audio.play();
+						}
+				</script>
+				<button onclick="call1();play();">Click to get a wish</button>
+				<audio id="audio" src="eid.mp3"></audio> 
+
+						
+		</body>
+</html>
